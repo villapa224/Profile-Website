@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Salsa&display=swap');
+
+
+*{
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 25px;
+    overflow: auto;
+    background-color: #E7CBCB;
+    color: #643843;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    list-style-type: none;
+}
+
+div a{
+    color: rgb(41, 34, 34);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info {
+    text-align: right;
+    background-color: #C88EA7;
+    padding: 8px;
+}
+
+.nav_link{
+    list-style-type: none;
+    margin: 0;
+    text-indent: 60%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin-top: 50px;
+}
+
+.wrapper h1{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Salsa', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member{
+    background: #D5B4B4;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+    line-height: 20px;
+    color: #A7727D;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+}
+
+.team .team_member h3{
+    color: #643843;
+    margin: 12px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: left;
+   
+}
+
+.img{
+    width: 300px;
+    float: right;
+    margin-left: 45px;
+    margin-top: 10px;
+    border-radius: 300px;
+    border: 8px solid #643843;
+    box-shadow: 50px 25px 30px #e495a9;
+}
+.color{
+    color: #643843;
+}
